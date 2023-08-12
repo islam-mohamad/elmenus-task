@@ -1,0 +1,11 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="category">Category:</string>
+    <string name="origin">Origin: </string>
+    <string name="recipe">Recipe</string>
+    <string name="show_more">Show More</string>
+    <string name="meal_not_found">Meal Doesn\'t Exist !!!</string>
+    <string name="something_wrong">Something went wrong, please try again later</string>
+    <string name="connection_error">No internet connection</string>
+    <string name="server_down">Sorry our service is not available now .. please try again later</string>
+</resources>

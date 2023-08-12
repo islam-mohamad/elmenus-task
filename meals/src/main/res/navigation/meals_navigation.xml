@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/meals_navigation"
+    app:startDestination="@id/meals_fragment">
+    <fragment
+        android:id="@+id/meals_fragment"
+        android:name="com.islam.task.meals.presentation.view.MealsFragment"
+        android:label="Meals Fragment" >
+
+        <deepLink
+            app:uri="meals://example.google.app/meals_list" />
+    </fragment>
+</navigation>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="categories">Categories</string>
+    <string name="no_categories">There are no categories</string>
+    <string name="meals">%s Meals 😋</string>
+    <string name="something_wrong">Something went wrong, please try again later</string>
+    <string name="connection_error">No internet connection</string>
+    <string name="server_down">Sorry our service is not available now .. please try again later</string>
+</resources>

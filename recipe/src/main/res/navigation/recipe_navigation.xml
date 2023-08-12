@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recipe_navigation"
+    app:startDestination="@id/recipe_fragment">
+    <fragment
+        android:id="@+id/recipe_fragment"
+        android:name="com.islam.task.recipe.presentation.view.RecipeFragment"
+        android:label="Recipe Fragment" >
+
+        <deepLink
+            app:uri="recipedetails://recipe?id={id}&amp;name={name}" />
+    </fragment>
+</navigation>
